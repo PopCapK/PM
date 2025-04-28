@@ -2,3 +2,9 @@ downloads
 https://dev.mysql.com/downloads/mysql/
 https://code.visualstudio.com/download
 https://httpd.apache.org/download.cgi
+
+repos
+https://github.com/Rustam-Z/cpp-programming
+https://github.com/kishanrajput23/Java-Projects-Collections
+https://drive.google.com/drive/u/1/folders/16GlR_XEKmdb82x-M9d72OFWhkKLvvSa0
+https://github.com/mr1326/prakticka_maturita
