@@ -1,0 +1,4 @@
+downloads
+https://dev.mysql.com/downloads/mysql/
+https://code.visualstudio.com/download
+https://httpd.apache.org/download.cgi
