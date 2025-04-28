@@ -1,0 +1,2 @@
+Ball catching game. Catch trash balls with the trash bin, catch basketballs with the basketball basket. Catching the right ball gives +1 score. When a ball falls to the ground score gets decreased by 1. Catching the wrong ball or score going below 0 reloads page(game over).
+Hra na chytání míčů. Chytejte odpadkové míče pomocí odpadkového koše, chyťte basketbalové míče pomocí basketbalového koše. Chytání správného míče dává skóre +1. Když míč spadne na zem, skóre se sníží o 1. Chytání špatného míče nebo skóre klesající pod 0 obnoví stránku (konec hry).

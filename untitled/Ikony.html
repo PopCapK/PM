@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+  <head>
+  <title>Muj web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/827b285da7.js" crossorigin="anonymous"></script> <!-- nová verze -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- stará verze -->
+
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body {margin:0;}
+
+    .icon-bar {
+      width: 100%;
+      background-color: #555;
+      overflow: auto;
+      display: block;
+    }
+
+    .icon-bar a {
+      text-decoration: none;
+      float: left;
+      width: 20%;
+      text-align: center;
+      padding: 12px;
+      transition: all 3s ease;
+      color: white;
+      font-size: 30px;
+    }
+
+    .icon-bar a:hover {
+      background-color: #000;
+    }
+
+    .active {
+      background-color: firebrick;
+    }
+
+    @media screen and (max-width: 500px) {
+      .icon-bar a {
+        float: none;
+        display: block;
+        width: 100%;
+      }
+    }
+
+    .continer{
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .bar1, .bar2, .bar3{
+      width: 35px;
+      height: 5px;
+      background-color: #333;
+      margin: 6px 0;
+      transition: 1s; /* Čas funkce*/
+    }
+
+    .change .bar1{
+      transform: translate(0, 11px) rotate(-45deg); /*vlastnost funkce*/
+    }
+
+    .change .bar2{
+      opacity: 0; /*Zneviditelnění*/
+    }
+
+    .change .bar3{
+      transform: translate(0, -11px) rotate(45deg);
+    }
+  </style>
+
+  </head>
+
+  <body>
+
+  <div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i>Home</a>
+    <a href="#"><i class="fa fa-search"></i> Search</a>
+    <a href="#"><i class="fa fa-envelope"></i> Contacts</a>
+    <a href="#">Hele---><i class="fa fa-globe"></i><--- planeta</a>
+    <a href="#"><i class="fa-solid fa-joint"></i> Help</a>
+  </div>
+
+
+  <div class="continer"  onclick="mojeFunkce(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+
+  <script>
+function mojeFunkce(x){
+  x.classList.toggle("change");
+}
+  </script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title>Title</title>
+       <link rel="stylesheet" href="">
+<style>
+    *{
+    box-sizing: border-box;
+    border-style: none;
+    border: none;
+    border-radius: 0px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    border-color: #000;
+    margin: 0%;
+    padding: 0px;
+}
+.nav1{
+    background-color: #ddd;
+}
+.parametry{
+    background-color: #ccc;
+    width:65%;
+    height: 400px;
+    float: left;
+}
+.dropdown {
+  width:30%;
+  margin: 25px;  
+  display: inline-block;
+}
+.historie{
+    width:35%;
+    background-color: #bbb;
+    height:400px;
+    float: left;
+    padding: 30px;
+}
+.sidebar{
+    padding:15px 15px;
+    background-color:#aaa;
+    height:400px;
+}
+.submitbtn{
+    background-color: #ffe1e1;
+    float: left;
+    width:100%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+.submitbtn:hover{
+    background-color: #d5ffcd;
+}
+.select{
+    float:left;
+}
+
+</style>
+   </head>
+           
+   <body>
+<form action="/action_page.php">
+<div class="nav1">
+    <embed type="text/html" src=navbar.html width=100% height="100px" >
+</div>
+    <div class="parametry">
+        <div class="dropdown">
+            
+              <label for="Závažnost">Závažnost:</label>
+              <select name="Závažnost" id="Závažnost">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <br><br>
+          </div>
+          <div class="dropdown">
+              <label for="Druh problému">Druh problému:</label>
+              <select name="Druh problému" id="Druh problému">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <br><br>
+          </div>
+          <div class="dropdown">
+            <label for="Oddělení">Oddělení:</label>
+              <select name="Oddělení" id="Oddělení">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <br><br>
+          </div>
+          <div class="dropdown">
+              <label for="Parametr">Parametr:</label>
+              <select name="Parametr" id="Parametr">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <br><br>
+          </div>
+          <div class="dropdown">
+              <label for="Parametr">Parametr:</label>
+              <select name="Parametr" id="Parametr">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <br><br>
+          </div>
+          <div class="dropdown">
+            <label for="Parametr">Parametr:</label>
+              <select name="Parametr" id="Parametr">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <br><br>
+          </div>
+          <br><br>
+  
+    </div>
+    <div class="historie">
+            <div>
+                Historie:
+            </div>
+            <div>
+                uživatel 1 převzal v [datum]
+            </div>
+            <div>
+                uživatel 2 převzal v [datum]
+            </div>
+            <div>
+                uživatel 3 převzal v [datum]
+            </div>
+    </div>
+<div class="submitbtn">
+<input type="submit" value="Submit">
+
+</div>
+</form>
+   </body>
+           
+</html>

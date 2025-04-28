@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    #logo{
+        color: #000000;
+        float: right;
+    }
+    .nav1{
+        list-style-type: none;
+        border: 3px solid #313131;
+        font-size: 15px;
+        width: 100%;
+        height: 56px;
+        padding: 0px 0px;
+        background-color: #4b4a4a;
+    }
+    .nav1 li{
+        padding: 0px 0px;
+    }
+    .nav1 li a{
+        color: white;
+        text-align: left;
+        float: left;
+        padding: 12px 12px;
+        border-right: 2px solid #7e7e7e;
+        background-color: #b3b3b3;
+    }
+    .nav1 li a:hover div.dropdown-content {
+        display: block;
+        position: fixed;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        color: black;
+    }
+    li a:hover:not(.active) {
+        background-color: rgb(107, 107, 107);
+    }
+    .active {
+        background-color: #242424;
+    }
+    @media only screen and (max-width: 786px){
+        .nav1 li {
+            float: none;
+            display: block;
+        }
+        ul.nav1 li a {
+            text-align: center;
+        }
+
+    }
+</style>
+<body> 
+    <ul class="nav1">
+        <li><a href="#lístky_s_filtrem_vaše">převzaté lístky</a></li>
+        <li><a href="newTick.html ">nový lístek
+            <div class="dropdown-content">
+                <a href=" #newtick "></a>preset lístku1</a>
+                <a href=" #newtick ">preset lístku2</a>
+            </div>
+        </a></li>
+        <li><a href=" #contact ">Contact</a></li>
+        <li><a href=" #xd ">About</a></li>
+        <div id="logo"><img src="LOGO.png" alt="baner"></div>
+    </ul>
+</body>
+</html>
