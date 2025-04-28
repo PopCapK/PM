@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1640993551 source:c:\users\popcapk\documents\c++\2022\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+
